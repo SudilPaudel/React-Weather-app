@@ -1,0 +1,267 @@
+.contain{
+    height:829px;
+    width: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    background-image: url("../Assets/bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 50px;   
+}
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: #ebfffc;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+.search-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size:120px;
+    font-weight: 400;
+
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.data-container{
+    margin-top: 50px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 10px;
+
+}
+.about-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  .about-section::after {
+    content: '';
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+    height: 2px;
+    background-color: #3498db;
+  }
+  .services-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .services-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services-content h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .services-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 58px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-info {
+    text-align: left;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
+  .footer-info p a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+  }
+  .footer-copyright {
+    margin-top: 20px;
+  }
+  
+  .footer-copyright p {
+    font-size: 14px;
+  }
+  .navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .navbar-app p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    text-align: right;
+  }
+  
+  .navbar-links li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  /* ProblemForm.css */
+
+.report-problem-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.report-problem-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.report-form {
+  display: grid;
+  gap: 10px;
+}
+
+.report-form label {
+  font-weight: bold;
+}
+
+.report-form input,
+.report-form textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.report-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.report-form button:hover {
+  background-color: #45a049;
+}
